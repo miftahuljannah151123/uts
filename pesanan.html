@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Layanan - Medika Utama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <h1>Medika Utama</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="dokter.html">Dokter & Layanan</a>
+            <a href="pemesanan.html">Pemesanan</a>
+            <a href="obat.html">Pembelian Obat</a>
+            <a href="konsultasi.html">Konsultasi</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- Form Pemesanan Layanan -->
+    <section class="form">
+        <div class="form-container">
+            <h2>Pemesanan Layanan Dokter</h2>
+            <form action="#">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+                <label for="dokter">Pilih Dokter:</label>
+                <select id="dokter" name="dokter">
+                    <option>Dr. Ali - Spesialis Jantung</option>
+                    <option>Dr. Siti - Spesialis Anak</option>
+                </select>
+                <label for="tanggal">Tanggal Janji:</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+                <button type="submit">Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Medika Utama</p>
+    </footer>
+</body>
+</html>
